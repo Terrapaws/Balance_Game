@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour {
     public float speed;
 
     private Rigidbody rb;
-    public Vector3 grav;
 
     //Balence Board code
     static VoltageRatioInput[] inputs = new VoltageRatioInput[4];
