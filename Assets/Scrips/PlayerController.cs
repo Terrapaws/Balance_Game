@@ -8,6 +8,7 @@ using Phidget22.Events;
 public class PlayerController : MonoBehaviour {
 
     public float speed;
+    public float thrust;
 
     private Rigidbody rb;
 
@@ -87,6 +88,7 @@ public class PlayerController : MonoBehaviour {
 		this.move += new Vector3(1, -2, -1) * GetInput(1);
 		this.move += new Vector3(1, -1, 1) * GetInput(0);
 		this.move = Vector3.ClampMagnitude(this.move * this.moveMultiplier, this.speed);
+        rb.AddForce(transform.forward * thrust);
         this.rb.velocity = this.move;
 
 

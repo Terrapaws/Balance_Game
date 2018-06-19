@@ -53,7 +53,6 @@
   <ItemGroup>
      <Compile Include="Assets\Scrips\Camera_Controller.cs" />
      <Compile Include="Assets\Scrips\PlayerController.cs" />
-     <Compile Include="Assets\Scrips\Wall_interaction.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Terrapaws/Documents/Unity projects/Balance_Board/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
